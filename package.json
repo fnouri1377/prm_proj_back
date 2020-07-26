@@ -1,0 +1,32 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "HTTP API endpoints with Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "10.14.1"
+  },
+  "author": "Fatemeh Nouri",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-redis": "^1.4.7",
+    "cookie-parser": "^1.4.5",
+    "cookies": "^0.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "kavenegar": "^1.1.4",
+    "mongodb": "^3.5.6",
+    "mongoose": "^5.9.16",
+    "node-fetch": "^2.6.0",
+    "node-schedule": "^1.3.2",
+    "universal-cookie": "^4.0.3"
+  },
+  "devDependencies": {}
+}
